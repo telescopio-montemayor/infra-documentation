@@ -1,0 +1,14 @@
+[Unit]
+Description=Montemayor Ethernet Encoder Servo
+After=multi-user.target
+
+[Service]
+User=telescopio
+ExecStart=/home/telescopio/montemayor/virtualenvs/venv35/bin/ethernet-servo --config /home/telescopio/montemayor/config_ethernet_servo_dos_ejes.json --state-store-path /home/telescopio/montemayor/state_ethernet_servo.json
+Restart=always
+RestartSec=5
+TimeoutStopSec=5
+
+[Install]
+WantedBy=multi-user.target
+

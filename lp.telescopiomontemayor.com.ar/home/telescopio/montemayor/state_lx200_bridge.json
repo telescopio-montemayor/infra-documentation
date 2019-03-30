@@ -1,0 +1,98 @@
+{
+    "comms.baud_rate": {},
+    "firmware.date": {},
+    "firmware.number": {},
+    "firmware.time": {},
+    "focuser.busy": {
+        "value": false
+    },
+    "focuser.presets.name_1": {},
+    "focuser.speed": {
+        "value": 4
+    },
+    "high_precision_enabled": {
+        "value": true
+    },
+    "mount.alignment.menu_0": {
+        "value": "Menu0"
+    },
+    "mount.alignment.menu_1": {
+        "value": "Menu1"
+    },
+    "mount.alignment.menu_2": {
+        "value": "Menu2"
+    },
+    "mount.alignment_mode": {
+        "value": "L"
+    },
+    "mount.alignment_status": {
+        "alignment": 0,
+        "is_tracking": false,
+        "mount": "P"
+    },
+    "mount.altitude": {},
+    "mount.azimuth": {},
+    "mount.backlash.altitude": {},
+    "mount.backlash.azimuth": {},
+    "mount.backlash.values": {},
+    "mount.clock_format_24h": {
+        "value": true
+    },
+    "mount.correction.flexure.enabled": {
+        "value": true
+    },
+    "mount.correction.pec.altitude.enabled": {
+        "value": true
+    },
+    "mount.correction.pec.right_ascencion.enabled": {
+        "value": true
+    },
+    "mount.declination": {},
+    "mount.guide.rate": {},
+    "mount.right_ascencion": {},
+    "mount.slew.rate": {
+        "value": "centering"
+    },
+    "mount.slew.rate.declination": {},
+    "mount.slew.rate.right_ascencion": {},
+    "mount.target.altitude": {},
+    "mount.target.azimuth": {},
+    "mount.target.declination": {},
+    "mount.target.distance": {},
+    "mount.target.right_ascencion": {},
+    "mount.target.selenographic.latitude": {},
+    "mount.target.selenographic.longitude": {},
+    "mount.tracking.rate": {
+        "value": 60.0
+    },
+    "mount.tracking.rate_name": {
+        "value": "SIDEREAL"
+    },
+    "reticle.flash.duty_cycle": {},
+    "reticle.flash.rate": {},
+    "site.date": {},
+    "site.dst.enabled": {
+        "value": false
+    },
+    "site.latitude": {},
+    "site.longitude": {},
+    "site.name_1": {
+        "value": "SI1"
+    },
+    "site.name_2": {
+        "value": "SI2"
+    },
+    "site.name_3": {
+        "value": "SI3"
+    },
+    "site.name_4": {
+        "value": "SI4"
+    },
+    "site.selected": {
+        "value": 1
+    },
+    "site.time": {},
+    "site.utc_offset": {
+        "value": 0
+    }
+}

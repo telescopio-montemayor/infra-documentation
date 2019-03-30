@@ -1,0 +1,34 @@
+{
+    "devices": [
+        {
+            "host": "192.168.1.3",
+            "port": 44818,
+            "interval": 50,
+            "name": "Declinación",
+            "id": "DEC",
+            "gear_ratio_num": 1,
+            "gear_ratio_den": 256,
+            "axis": "B",
+            "steps": 25600,
+            "invert": true,
+            "max_speed": 20000,
+            "supports_hour_angle": false
+        },
+        {
+            "host": "192.168.1.4",
+            "port": 44818,
+            "interval": 50,
+            "name": "Ángulo Horario",
+            "id": "RA",
+            "gear_ratio_num": 1,
+            "gear_ratio_den": 360,
+            "axis": "A",
+            "steps": 25600,
+            "invert": false,
+            "max_speed": 20000,
+            "supports_hour_angle": true,
+            "can_track": true
+        }
+    ]
+}
+
