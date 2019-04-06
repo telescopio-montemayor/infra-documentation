@@ -1,0 +1,14 @@
+[Unit]
+Description=Montemayor LX200/Stellarium <-> Ethernet Encoder Servo bridge
+After=multi-user.target
+
+[Service]
+User=telescopio
+ExecStart=/home/telescopio/montemayor/virtualenvs/venv37/bin/ethernet-encoder-bridge --store-path="/home/telescopio/montemayor/state_ethernet_bridge.json"
+Restart=always
+RestartSec=5
+TimeoutStopSec=5
+
+[Install]
+WantedBy=multi-user.target
+

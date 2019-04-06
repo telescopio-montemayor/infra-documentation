@@ -3,11 +3,11 @@
 On the server this holds a devel checkout of:
 
 - https://github.com/telescopio-montemayor/ethernet-encoder-servo
-- https://github.com/telescopio-montemayor/lx200-encoder-bridge
+- https://github.com/telescopio-montemayor/ethernet-encoder-bridge
 - https://github.com/telescopio-montemayor/python-lx200
 
 Inside venv35 install *ethernet-encoder-servo* (cd into folder and then run pip install -e .)
-Inside venv37 install *lx200-encoder-bridge* and *python-lx200* (same as above)
+Inside venv37 install *ethernet-encoder-bridge* and *python-lx200* (same as above)
 
 
 ## Nginx
